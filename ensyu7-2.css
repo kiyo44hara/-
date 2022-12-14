@@ -64,3 +64,33 @@ footer{
   height: 50px;
   background-color: #aaa;
 }
+
+@media screen and (max-width:768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 90%;
+    display: block
+  }
+
+  .step-box {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 12px;
+  }
+
+  .step-box:last-child {
+    margin-bottom: 50px;
+  }
+
+   footer {
+     width: 100%;
+   }
+
+}
+
+/*質問：画像のサイズが見本と異なり、画面全体が表示されずに
+一部だけの表示になってしまっている。
+しかし、何を使って調整すれば良いかがわからない。 */
